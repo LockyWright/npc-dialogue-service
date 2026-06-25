@@ -1,0 +1,17 @@
+# Virtual environment — never commit this; it's machine-specific and huge
+.venv/
+venv/
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variable files — these will hold your LLM API key later. NEVER commit secrets.
+.env
+
+# macOS clutter
+.DS_Store
+
+# VS Code settings (optional — keep local)
+.vscode/
